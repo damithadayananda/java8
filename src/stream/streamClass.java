@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.stream.Stream;
 
 /**
+ * simply stream is an interface which is implemented by several classes
+ *
  * stream can be create using Collection,Array or by itself
  * 1)list.stream()
  * 2)Arrays.stream(arr)

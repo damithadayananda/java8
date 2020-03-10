@@ -1,5 +1,10 @@
 import anonymousClass.threadWithTheaClass;
 import methodReference.StaticMethodReferenceDemo;
+import optional.optionalDemo;
+import stream.StreamDemo;
+import stream.streamTransformationMethods;
+
+import java.util.Optional;
 
 public class main {
     public static void main(String[] args){
@@ -24,7 +29,7 @@ public class main {
          */
 //        AnnonymousInnerClass aic = new AnnonymousInnerClass();
 //        aic.TestAnnonymous();
-        new threadWithTheaClass().start();
+//        new threadWithTheaClass().start();
         /**
          * lambda vs anonymous
          */
@@ -35,8 +40,9 @@ public class main {
          * method reference
          */
         //static method reference
-        new StaticMethodReferenceDemo();
+        //new StaticMethodReferenceDemo();
         //reference to instance method of existing object
 
+        new StreamDemo();
     }
 }
